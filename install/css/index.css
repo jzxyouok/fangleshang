@@ -1,0 +1,153 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background: url("../imgs/bg.gif");
+}
+/*首页*/
+.all{
+	height: 505px;
+	width: 1000px;
+	margin-top: -250px;
+	margin-left: -500px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	background: #333;
+	border: 2px solid #fff;
+}
+.header{
+	height: 100px;
+	width: 1000px;
+	background: #7b79a0;
+}
+.logo{
+	height: 91px;
+	width: 179px;
+	margin-left: 20px;
+	margin-top: 10px;
+	float: left;
+	background: url("../imgs/logo.png") no-repeat;
+}
+.header .title{
+	font-family: "microsoft yahei";
+	font-size: 20px;
+	line-height: 30px;
+	margin-left: 20px;
+	margin-top: 20px;
+	float: left;
+	color: #fff;
+	background: #7b79a0;
+
+}
+.middle{
+	height: 300px;
+	width: 800px;
+    color: #fff;
+    font-size: 13px;
+    line-height: 25px;
+    padding: 10px 7px;
+	border: 1px solid #666;
+	margin: 20px auto;
+	overflow-y:scroll;
+}
+.middle a{
+	color: #ffe;
+	text-decoration: none;
+}
+.middle a:hover{
+	text-decoration:underline;
+}
+.middle .title,.error-middle .title{
+	font-size: 14px;
+	text-align: center;
+	background: #666;
+	font-weight: bold;
+}
+.footer{
+    width: 1000px;
+    height: 100px;
+    text-align: center;
+}
+.agree{
+	width: 96px;
+	height: 30px;
+    color: #fff;
+    border: 1px solid #999;
+    background:#999;
+    margin-right: 10px;
+}
+.disagree{
+	width: 96px;
+	height: 30px;
+    color: #fff;
+    border: 1px solid #999;
+    background:#999;
+}
+/*next页面*/
+table{
+    width: 80%;
+    height: 100%;
+    font-size: 12px;
+    margin: 0 auto;
+    color: #fff;
+
+ }
+ .database{
+ 	margin-top: 10px;
+ 	height: 160px;
+ }
+ .admin{
+ 	margin-top: 10px;
+ 	height: 95px;
+ }
+ .td-1{
+ 	width: 40%;
+ 	text-align: right;
+
+ }
+ .td-2{
+ 	width: 38%;
+ }
+ .td-2 input{
+ 	width:210px;
+ 	margin-left: 15px;
+ 	padding-left: 5px;
+ 	background: #666;
+ 	height: 27px;
+ 	border: 0px;
+ 	color: #fff;
+ }
+ .td-3{
+ 	padding-left: 5px;
+ }
+ #db_list{
+ 	width: 100px;
+ }
+ .process{
+    padding:10px;
+    margin:10px 0px;
+    text-align:center;
+    line-height:50px;
+    margin-top:50px;
+    font-size:12px;
+ }
+ /*success页面*/
+.success{
+	text-align: center;
+	font-size: 16px;
+	margin-top: 90px;
+}
+/*error页面*/
+.error-middle{
+	height: 270px;
+	width: 800px;
+    color: #fff;
+    font-size: 13px;
+    line-height: 25px;
+    padding: 10px 7px;
+	border: 1px solid #666;
+	margin: 20px auto;
+	overflow-y:scroll;
+}
